@@ -1,7 +1,15 @@
 <p class ="notice">
 	<%= notice %>
 </p>
-<h4>Title</h1>
-<p><%= @book.title %></p>
-<h4>Body</h1>
-<p><%= @book.body %></p>
+<div class="show-title">
+	<h4>Title: </h4>
+	<p><%= @book.title %></p>
+</div>
+<div class="show-body">
+	<h4>Body: </h4>
+	<p><%= @book.body %></p>
+</div>
+
+<%= link_to "Edit", edit_book_path(@book.id), class: "nav-link" %>
+<span class="division">|</span>
+<%= link_to "Back", books_path, class: "nav-link" %>
