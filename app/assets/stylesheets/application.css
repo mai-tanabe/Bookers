@@ -137,3 +137,38 @@ table td {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+.notice {
+	color: #228b22;
+	font-size: 13px;
+	padding-left: 40px;
+	padding-bottom: 30px;
+}
+
+.alert {
+	border: 2px solid red;
+	width: 450px;
+	margin-top: 10px;
+}
+
+.alert h2 {
+	font-size: 12px;
+	padding: 5px 5px 5px 10px;
+	color: white;
+	background-color: #cc0000;
+}
+
+.alert ul {
+	padding: 35px 35px 35px 80px;
+	background-color: #f3f3f3;
+	font-size: 12px;
+}
+.error_explanation{
+	background-color :red;
+}
+div.field_with_errors {
+	border: 2px solid red;
+	padding: 0;
+	margin: 0;
+	width: 124px;
+}
